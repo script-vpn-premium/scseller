@@ -305,7 +305,7 @@ TIMEZONE=$(printf '%(%H:%M:%S)T')
 RX=$(cat /dev/urandom | tr -dc 'A-Za-z0-9' | head -c 8) # Menghasilkan nomor acak antara 1000 dan 9999
 TEXT="
 <code>────────────────────</code>
-    <b>✨ DETAIL VPS RESELLER✨</b>
+  <b>✨ DETAIL VPS RESELLER✨</b>
 <code>────────────────────</code>
 <code>user   : </code><code>$USRSC</code>
 <code>Domain : </code><code>$domain</code>
@@ -313,7 +313,7 @@ TEXT="
 <code>Time   : </code><code>$TIMEZONE</code>
 <code>Ip vps : </code><code>$MYIP</code>
 <code>Exp Sc : </code><code>$EXPSC</code>
-<code>Script : </code><code>Premium</code>
+<code>Script : </code><code>Reseller</code>
 <code>────────────────────</code>
 <i>Notifikasi Otomatis Dari Github </i>
 "'&reply_markup={"inline_keyboard":[[{"text":"Order","url":"https://t.me/JesVpnt"},{"text":"Contack","url":"https://wa.me/6285888801241"}]]}'
